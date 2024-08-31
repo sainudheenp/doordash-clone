@@ -1,0 +1,440 @@
+    * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* overflow-x: hidden; */
+  /* font-family: sans-serif; */
+}
+
+:root {
+  --button-color: rgb(235, 23, 0);
+}
+
+/* fonts */
+@font-face {
+  font-family: "TT-regular";
+  src: url(./asset/fonts/TTNorms-Regular.otf);
+}
+@font-face {
+  font-family: "TT-bold";
+  src: url(./asset/fonts/TTNorms-Bold.otf);
+}
+@font-face {
+  font-family: "TT-light";
+  src: url(./asset/fonts/TTNorms-Light.otf);
+}
+@font-face {
+  font-family: "TT-medium ";
+  src: url(./asset/fonts/TTNorms-Medium.otf);
+}
+
+.top-div {
+  display: flex;
+  align-items: center;
+  height: 93px;
+  margin: 0px 10px;
+  justify-content: space-around;
+}
+.top-div svg {
+  border: 1px solid rgb(222, 222, 222);
+  border-radius: 10px;
+}
+.top-div h4 {
+  font-family: "TT-bold";
+}
+.top-div p {
+  font-family: "TT-light";
+  font-size: 0.9em;
+}
+.top-div .txt-div {
+  margin: 8px 5px;
+}
+
+button {
+  color: white;
+  background-color: var(--button-color);
+  padding: 0px 10px;
+  border: 8px solid transparent;
+  border-radius: 20px;
+  font-family: "TT-bold";
+}
+
+.banner {
+  background-image: url(./asset/img/hero_mobile.png);
+  background-size: cover;
+  width: 100%;
+  height: 83%;
+  position: relative;
+}
+
+.banner .login {
+  position: absolute;
+  right: 0;
+  padding: 10px;
+}
+.banner .login button:nth-child(1) {
+  background-color: white;
+  color: black;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  padding: auto;
+  align-items: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.content img,
+.content p {
+  padding: 15px 0;
+}
+.content img {
+  width: 150px;
+}
+.content p {
+  font-family: "TT-bold";
+  text-align: center;
+  font-size: 1.3em;
+  /* line-height: 10px;  */
+}
+.address-div {
+  background-color: rgb(255, 255, 255);
+  /* border: 1px solid grey; */
+  border-radius: 60px;
+  padding: 3px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+}
+.address-div img {
+  width: 18px;
+}
+.address-div input {
+  margin-left: 10px;
+  border: 0px;
+  font-family: "TT-bold";
+}
+
+/* login button in address */
+
+.login-btn {
+  color: black;
+  padding: 5px 10px;
+  font-family: "TT-bold";
+  margin-top: 10px;
+  background-color: white;
+  border-radius: 80px;
+}
+
+/* somemo  */
+.somemo {
+  display: flex;
+  flex-direction: column;
+  /* text-align: center; */
+}
+.somemo .items {
+  display: flex;
+  padding: 20px 20px;
+}
+.somemo h1 {
+  font-family: "TT-bold";
+  text-align: start;
+  font-size: 1.9em;
+}
+.somemo p {
+  font-family: "TT-regular";
+  font-weight: 500;
+}
+.somemo a {
+  color: var(--button-color);
+  text-decoration: none;
+  font-family: "TT-bold";
+}
+.somemo img {
+  width: 88px;
+  height: 88px;
+}
+.somemo .items .con {
+  padding: 0 20px;
+}
+
+/* food section */
+.food-w {
+  margin-top: 30px;
+  background-color: rgb(254, 241, 238);
+  box-sizing: border-box;
+
+}
+ .at {
+  align-items: center;
+  padding: 20px;
+
+}
+.food-w .at img {
+    height: 188px;
+    width: 320px;
+  object-fit: cover;
+}
+.food-w .at h1,
+.food-w .at span,
+.food-w .at p {
+  padding: 7px 0;
+}
+
+.food-w h1 {
+  font-family: "TT-bold";
+  font-weight: 700;
+  margin: 19px 0px;
+}
+.food-w span {
+  font-family: "TT-bold";
+  font-size: 1.1em;
+}
+.food-w p {
+  font-family: "TT-medium";
+  font-size: 14px;
+  line-height: 20px;
+
+}
+.food-w button{
+  margin: 20px 0px;
+}
+
+
+
+
+/* .swp{overflow: hidden;} */
+
+.item3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./asset/img/grocery_mobile.png);
+  background-size: cover;
+  color: white;
+  text-align: center;
+  height: 350px;
+  /* width: 375px; */
+  display: flex;
+  flex-direction: column;
+  position: relative;
+justify-content: center;
+}
+/* .item3-inner{
+text-align: center;
+align-items: center;
+} */
+ 
+.item3-inner h1{
+  margin: 19.7px 0px;
+  font-size: 28px;
+  line-height: 28px;
+  font-family: "TT-bold ";
+}
+.item3-inner span{
+  font-size: 14px;
+  font-weight: 700;
+  font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol;
+}
+.item3-inner p{
+  font-size: 18px;
+  font-family: "TT-medium";
+  font-weight: 500;
+  margin: 10px 0;
+}
+
+/* item4 */
+
+/* used an inline style in item4 ,bgcolor white */
+
+
+/*swp container*/
+
+.swp-container{
+  background-color:  rgb(254, 241, 238);
+}
+.swp-container .helping h1{
+  padding: 10px;
+  font-family: TT-bold;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+
+}
+
+.swp-container .swp{
+  display: flex;
+  overflow: auto;
+}
+.swp .swp-item{
+  margin-left:10.15px ;
+  margin-right: -38px;
+  width: 610px;
+  min-width: 90%;
+  padding: 20px;
+  text-align: center;
+}
+.swp .swp-item img{
+    height: 180px;
+    width: 305px;
+    /* margin: 20px; */
+    padding: 0 8px;
+}
+ .swp-item h1{
+  font-family: TT-bold;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 19.92px 0px;
+ }
+ .swp-item p{
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;  
+  font-family: TT-medium;
+ }
+ .swp-item button{
+ margin-top: 20px;
+}
+.swp-item h6{
+  padding: 10px 0;
+  font-family: sans-serif;
+}
+
+
+
+
+
+/* business  */
+
+.business .food-w .at h3 {
+padding: 20px 0;
+}
+
+
+
+
+/* js section*/
+.js{
+  width: 100%;
+}
+.js h2{
+  font-size: 18px;
+  font-weight: 700;
+  padding: 30px ;
+}
+
+.js-heads{
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+
+}
+.js-heads span:nth-child(1){
+  border-bottom: 4px solid rgb(48, 48, 48);
+  font-family:TT-bold;
+}
+
+
+.cicuch{
+  display: flex;
+  justify-content: space-around;
+}
+.js ul li{
+  padding: 10px;
+  list-style: none;
+  font-family: TT-medium;
+  font-weight: 450;
+}
+
+.cu{
+display:none;
+}
+.ch{
+  display:none;
+}
+
+
+
+
+
+
+/* Footer */
+
+
+footer {
+  background: #3a3a3a;
+  color: aliceblue;
+}
+.footer{
+  padding: 32px 0;
+  align-items: center;
+  text-align: center;
+}
+.footer  li{
+  font-size: 14px;
+  margin-top: 8px;
+  color: rgb(196, 196, 196);
+  font-family: sans-serif  ;
+
+}
+.footer h2{
+  font-family: TT-regular;
+  padding-top: 32px;
+  font-size: 16px;
+  padding-bottom: 15px;
+}
+
+.footer div{
+  margin-top: 20px;
+}
+
+/* app icons */
+.app-icons {
+  display: flex;
+  flex-direction: column;
+  padding-top: 32px;
+  flex-shrink: 1;
+align-items: center;
+  
+}
+
+.app-icons img{
+/* width: 335px; */
+height: 130px;
+width: 200px;
+}
+
+
+/* social */
+.social {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.social >* {
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+}
+
+.country{
+  width: 150px;
+  background-color: white;
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1200px) {
+  body {
+    display: none;
+  }
+}
