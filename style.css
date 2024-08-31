@@ -119,6 +119,10 @@ button {
   margin-left: 10px;
   border: 0px;
   font-family: "TT-bold";
+  border: 0px solid red;
+}
+.address-div input:focus{
+  outline: none;
 }
 
 /* login button in address */
