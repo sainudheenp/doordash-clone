@@ -228,7 +228,7 @@ justify-content: center;
 text-align: center;
 align-items: center;
 } */
- 
+
 .item3-inner h1{
   margin: 19.7px 0px;
   font-size: 28px;
@@ -293,7 +293,7 @@ align-items: center;
  .swp-item p{
   font-size: 14px;
   font-weight: 500;
-  line-height: 20px;  
+  line-height: 20px;
   font-family: TT-medium;
  }
  .swp-item button{
@@ -399,7 +399,7 @@ footer {
   padding-top: 32px;
   flex-shrink: 1;
 align-items: center;
-  
+
 }
 
 .app-icons img{
@@ -434,7 +434,15 @@ width: 200px;
 
 
 @media screen and (min-width: 1200px) {
-  body {
+
+  #testdek{
+    display: block;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 5.9em;
+font-weight: bold;
+  }
+  body *:not(#testdek) {
     display: none;
   }
 }
