@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <h1 id="testdek" style="display: none;">Zainn.</h1>
+    <!-- <h1 id="testdek" style="display: none;">Zainn.</h1> -->
     <div class="top-div">
         <svg width="64" height="64" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
             aria-hidden="true" class="styles__StyledInlineSvg-sc-1hetb2e-0 eCVqVv sc-d0b08270-1 cNctui fetched-icon">
@@ -27,18 +27,22 @@
 
     <section class="main">
         <div class="banner">
-            <div class="login">
+            <div class="login mob">
                 <button>Login</button>
                 <button>Open App</button>
+            </div>
+            <div class="login desk">
+                <button>Sign In</button>
+                <button>Sign Up</button>
             </div>
         </div>
 
         <div class="content">
-            <img src="./asset/img/doordash-logo-white.png" alt="logo-with-text">
+            <img  class="xxn" src="./asset/img/doordash-logo-white.png" alt="logo-with-text">
             <p>Discover restaurents and more <br> near you.</p>
             <div class="address-div">
                 <img src="./asset/img/search.svg" alt="">
-                <input  type="text" name="address" placeholder="Enter delivery address" id="address" readonly>
+                <input type="text" name="address" placeholder="Enter delivery address" id="address" readonly>
                 <img src="./asset/img/arrow-right-solid.svg" alt="">
             </div>
 
@@ -52,7 +56,7 @@
                         d="M12 4C12 6.20914 10.2091 8 8 8C5.79086 8 4 6.20914 4 4C4 1.79086 5.79086 0 8 0C10.2091 0 12 1.79086 12 4ZM8 6C9.10457 6 10 5.10457 10 4C10 2.89543 9.10457 2 8 2C6.89543 2 6 2.89543 6 4C6 5.10457 6.89543 6 8 6Z"
                         fill="currentColor"></path>
                 </svg>
-                <span>Login</span>
+                <span></span>
             </div>
         </div>
     </section>
@@ -86,7 +90,7 @@
                 <img src="./asset/img/iphone.svg" alt="iphone">
             </div>
             <div class="mo-content con">
-                <h1>Get the best DoorDash experience</h1>
+                <h1>Get the best <br>DoorDash experience</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                 <a href="#">Get the app </a>
 
@@ -97,22 +101,32 @@
 
     <!-- 3rd section  -->
 
+
     <section class="section-food">
         <div class="food-w">
             <div class="item1 at">
-                <img src="./asset/img/download_the_app_mobile.png" alt="">
-                <h1>Everything you crave, deliverd.</h1>
-                <span>Your Favorite local restaurents</span>
-                <p>Get slice of pizza or other whole pie deliverd, or pick up house lo mein from the chinese takeout
-                    spot you've been meaning to try </p>
-                <button>Find restaurents</button>
+                <div class="foody"> <img src="./asset/img/download_the_app_mobile.png" alt=""></div>
+                <div>
+                    <h1>Everything you crave, deliverd.</h1>
+                    <span>Your Favorite local restaurents</span>
+                    <p>Get slice of pizza or other whole pie deliverd, or pick up house lo mein from the chinese takeout
+                        spot you've been meaning to try </p>
+                    <button>Find restaurents</button>
+                </div>
             </div>
             <div class="item2 at">
-                <img src="./asset/img/dashpass_mobile.png" alt="">
-                <h1>DashPass is delivery for less </h1>
-                <p>Members get a $0 delivery fee on DashPass orders,5% back on pickup orders,and so much more.Plus,it's
-                    free for 30 days.</p>
-                <button>Get DashPass</button>
+                <div>
+                    <img src="./asset/img/dashpass_mobile.png" alt="">
+
+                </div>
+                <div>
+                    <h1>DashPass is delivery for less </h1>
+                    <p>Members get a $0 delivery fee on DashPass orders,5% back on pickup orders,and so much
+                        more.Plus,it's
+                        free for 30 days.</p>
+                    <button>Get DashPass</button>
+
+                </div>
             </div>
         </div>
 
@@ -131,10 +145,13 @@
 
         <div class="food-w" style="background-color: white;">
             <div class="item4 at">
-                <img src="./asset/img/convenience_mobile.png" alt="">
-                <h1>Convenience store at your doorstep</h1>
-                <p>Stock up on snacks,household essentials,candy,or vitamins-all deliverd in under an hour</p>
-                <button>Shop Now</button>
+                <div> <img src="./asset/img/convenience_mobile.png" alt="">
+                </div>
+                <div>
+                    <h1>Convenience store at your doorstep</h1>
+                    <p>Stock up on snacks,household essentials,candy,or vitamins-all deliverd in under an hour</p>
+                    <button>Shop Now</button>
+                </div>
             </div>
         </div>
 
@@ -387,14 +404,18 @@
             </select>
         </div>
 
-            <div class="footer-bottom">
-                <svg aria-hidden="true" width="32" height="18" viewBox="0 0 99.5 56.5" fill="white"><path d="M95.64,13.38A25.24,25.24,0,0,0,73.27,0H2.43A2.44,2.44,0,0,0,.72,4.16L16.15,19.68a7.26,7.26,0,0,0,5.15,2.14H71.24a6.44,6.44,0,1,1,.13,12.88H36.94a2.44,2.44,0,0,0-1.72,4.16L50.66,54.39a7.25,7.25,0,0,0,5.15,2.14H71.38c20.26,0,35.58-21.66,24.26-43.16"></path></svg><span class="VisuallyHiddenText-sc-1zjgp0-0 fZSJxy">DoorDash</span>
-                <span>Terms of Service</span>
-                <span>Privacy</span>
-                <span>Delivery Locations</span>
-                <span>Do Not Sell or Share My Personal Information </span>
-                <span>C 2024 DoorDash</span>
-            </div>
+        <div class="footer-bottom">
+            <svg aria-hidden="true" width="32" height="18" viewBox="0 0 99.5 56.5" fill="white">
+                <path
+                    d="M95.64,13.38A25.24,25.24,0,0,0,73.27,0H2.43A2.44,2.44,0,0,0,.72,4.16L16.15,19.68a7.26,7.26,0,0,0,5.15,2.14H71.24a6.44,6.44,0,1,1,.13,12.88H36.94a2.44,2.44,0,0,0-1.72,4.16L50.66,54.39a7.25,7.25,0,0,0,5.15,2.14H71.38c20.26,0,35.58-21.66,24.26-43.16">
+                </path>
+            </svg><span class="VisuallyHiddenText-sc-1zjgp0-0 fZSJxy">DoorDash</span>
+            <span>Terms of Service</span>
+            <span>Privacy</span>
+            <span>Delivery Locations</span>
+            <span>Do Not Sell or Share My Personal Information </span>
+            <span>C 2024 DoorDash</span>
+        </div>
 
     </footer>
 
