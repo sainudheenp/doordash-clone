@@ -8,8 +8,8 @@
 
 :root {
   --button-color: rgb(235, 23, 0);
-  --cards-bg:rgb(78, 18, 5);
-  /* rgb(254, 241, 238) */
+  --cards-bg:rgb(254, 241, 238);
+  
 }
 
 /* fonts */
@@ -179,23 +179,40 @@ button {
   padding: 0 20px;
 }
 
+
+
+
+
+
+
 /* food section */
 
 .food-w {
-  margin-top: 30px;
+  margin-top: 0px;
+  /* margin-top: 30px; */
   background-color: var(--cards-bg);
   box-sizing: border-box;
 }
+
  .at {
   align-items: center;
   padding: 20px;
 
 }
-.food-w .at img {
-    height: 188px;
-    width: 320px;
+
+
+.img-mob {
+    /* height: 188px;
+    width: 320px; */
+    width: 100%;
   object-fit: cover;
 }
+
+ .img-desk{
+  display: none;
+}
+
+
 .food-w .at h1,
 .food-w .at span,
 .food-w .at p {
@@ -281,10 +298,14 @@ align-items: center;
 
 }
 
-.swp-container .swp{
-  display: flex;
-  overflow: auto;
-}
+  .swp-container .swp {
+    display: flex;
+    overflow: auto;
+  }
+
+
+
+
 .swp .swp-item{
   margin-left:10.15px ;
   margin-right: -38px;
@@ -480,61 +501,3 @@ margin: 0px 10px;
 
 
 
-@media screen and (min-width: 1200px) {
-.top-div{
-  display: none;
-}
-/* .mob {
-  display: none;
-} */
-
-.banner{
-  background-image: url(./asset/img/hero_desktop.png);
-}
-.address-div {
-  width: 408px;
-}
-.login-btn span::after{
-  clear: both;
-  content: "Sign in for saved address";
-}
-
-
-
-
-
-.somemo  {
-  display: flex;
-  flex-direction: row;
-  margin: 96px 0;
-  justify-content: center;
-  max-width: 100%;
-
-}
-.somemo .items {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 16px;
-  max-width: 100%;
-  width: 360px;
-  min-width: 360px;
-  flex-wrap: nowrap;
-  box-sizing: border-box;
-}
-.somemo .items img{
-  height: 120px;
-  width: 120px;
-}
-.somemo .items h1{
-  font-size: 1.5em;
-
-}
-
-
-
-
-
-
-}
