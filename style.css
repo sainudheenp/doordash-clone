@@ -415,6 +415,7 @@ footer {
   margin-top: 8px;
   color: rgb(196, 196, 196);
   font-family: sans-serif  ;
+  list-style-type: none;
 
 }
 .footer h2{
