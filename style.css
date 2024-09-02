@@ -9,7 +9,7 @@
 :root {
   --button-color: rgb(235, 23, 0);
   --cards-bg:rgb(254, 241, 238);
-  
+
 }
 
 /* fonts */
@@ -386,7 +386,7 @@ padding: 20px 0;
   font-weight: 450;
 }
 
-.cu{
+.cu {
 display:none;
 }
 .ch{
