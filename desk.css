@@ -133,12 +133,23 @@
     height: 600px;
     }
     .inner-cnt{
-        max-height: 550px;
-        width: 140px;
+      
         justify-content: center;
     }
-
-
-
+    .inner-cnt h1{
+        font-size: 40px;
+        font-family: TT-bold;
+        line-height: 28px;
+    }
+    .item4{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .swp-container .swp{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 10px;
+    }
+  
 
 }

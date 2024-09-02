@@ -201,7 +201,7 @@ button {
 }
 
 
-.food-w  .img-mob {
+.img-mob {
     /* height: 188px;
     width: 320px; */
     width: 100%;
@@ -298,10 +298,14 @@ align-items: center;
 
 }
 
-.swp-container .swp{
-  display: flex;
-  overflow: auto;
-}
+  .swp-container .swp {
+    display: flex;
+    overflow: auto;
+  }
+
+
+
+
 .swp .swp-item{
   margin-left:10.15px ;
   margin-right: -38px;
