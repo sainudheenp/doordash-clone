@@ -8,8 +8,8 @@
 
 :root {
   --button-color: rgb(235, 23, 0);
-  --cards-bg:rgb(78, 18, 5);
-  /* rgb(254, 241, 238) */
+  --cards-bg:rgb(254, 241, 238);
+  
 }
 
 /* fonts */
@@ -178,6 +178,12 @@ button {
 .somemo .items .con {
   padding: 0 20px;
 }
+
+
+
+
+
+
 
 /* food section */
 
@@ -524,13 +530,34 @@ margin: 0px 10px;
   box-sizing: border-box;
 }
 .somemo .items img{
-  height: 120px;
-  width: 120px;
+  height: 154px;
+  width: 154px;
 }
 .somemo .items h1{
-  font-size: 1.5em;
-
+  font-size: 32px;
+  text-align: center;
+  display: block;
 }
+.somemo p{
+  margin: 8px 0px;
+  font-size: 18px;
+  font-family:sans-serif;
+  text-align: center;
+}
+.somemo a{
+display: flex;
+justify-content: center;
+padding: 10px;
+align-items: center;
+}
+.somemo a>*{
+  margin-right: 10px;
+}
+
+
+
+
+
 
 
 
