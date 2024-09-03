@@ -607,9 +607,36 @@ height: 184px;
   font-size: 20px;
 
 }
+.item4{
+  display: flex;
+  flex-direction: row-reverse;
+}
 
+/* swp */
 
+.swp-container .swp {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+justify-content: center;
+}
+.swp-item{
+  overflow: visible;
+  
+}
 
+/* footer */
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+}
 
 
 
