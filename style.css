@@ -104,7 +104,7 @@ button {
 } */
 .xxn{
   position:absolute;
-  top: -40vh;
+  top: -35vh;
   width: 220px;
   height: auto;
   }
@@ -510,11 +510,11 @@ margin: 0px 10px;
 
 
 @media screen and (min-width: 760px)  {
-  
+
 
 .top-div{
   display: none;
-}    
+}
 /* .content .xxn {
 display: none;
 } */
@@ -536,7 +536,7 @@ button {
 }
 .login-btn span::after{
   content: "Sign In";
-} 
+}
 
 /* somemo */
 .somemo{
@@ -652,7 +652,7 @@ justify-content: center;
 }
 .swp-item{
   overflow: visible;
-  
+
 }
 
 /* footer */
@@ -665,7 +665,7 @@ justify-content: center;
 
   text-align: center;
   font-family: TT-bold;
-  
+
 }
 
 .footer >*{
