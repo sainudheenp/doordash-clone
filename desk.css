@@ -13,6 +13,7 @@
 
     .banner {
         background-image: url(./asset/img/hero_desktop.png);
+        height: 83%;
     }
 
     .address-div {
@@ -104,7 +105,7 @@
         width: auto;
         height: auto;
       }
-      
+
 
 
     .item1 {
