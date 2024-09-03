@@ -190,9 +190,15 @@
         font-family: sans-serif;
         font-weight:500;
     }
+/* business   code reused item1,2 */
 
+/* js */
 
-
+/* .cicuch{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,1fr);
+} */
 
 
 

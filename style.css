@@ -370,11 +370,16 @@ padding: 20px 0;
   padding: 10px;
 
 }
-.js-heads span:nth-child(1){
+.js-heads span:focus{
   border-bottom: 4px solid rgb(48, 48, 48);
   font-family:TT-bold;
 }
 
+.js-heads span:hover{
+  background-color: rgb(119, 119, 119);
+  border-bottom: 4px solid rgb(48, 48, 48);
+  font-family:TT-bold;
+}
 
 .cicuch{
   display: flex;
