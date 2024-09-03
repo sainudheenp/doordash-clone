@@ -20,7 +20,6 @@
     }
 
     .login-btn span::after {
-        clear: both;
         content: "Sign in for saved address";
     }
 
@@ -111,7 +110,7 @@
     .item1 {
         display: flex;
         flex-direction: row-reverse;
-
+       
     }
 
     .item2 {
