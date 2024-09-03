@@ -127,53 +127,90 @@
         width: 400px;
         height: 290px;
     }
-    .item3{
+
+    .item3 {
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url(./asset/img/grocery_desktop.png);        background-size: cover;
-    height: 600px;
+            url(./asset/img/grocery_desktop.png);
+        background-size: cover;
+        height: 600px;
     }
-    .inner-cnt{
+
+    .inner-cnt {
 
         justify-content: center;
     }
-    .inner-cnt h1{
+
+    .inner-cnt h1 {
         font-size: 40px;
         font-family: TT-bold;
         line-height: 28px;
     }
-    .item4{
+
+    .item4 {
         display: flex;
         flex-direction: row-reverse;
     }
 
 
     /* swp */
-    .swp-container .swp{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        grid-gap: 10px;
-        margin: 0 100px;
+
+    .swp-container .helping h1 {
+        padding: 15px;
+        font-family: TT-bold;
+        text-align: center;
+        font-size: 34px;
+        font-weight: 700;
     }
-    .swp-container .swp img{
-       height: 350px;
-       width: auto  ;
+
+    .helping h1 {
+        font-size: 1.5em;
+        font-family: TT-bold;
+    }
+
+    .swp-container .swp {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1px;
+        margin: 0 100px;
+        justify-items: center;
+    }
+
+    .swp-item {
+        padding: 100px;
+        margin: 0 1000px;
+    }
+
+    .swp-container .swp img {
+        height: 350px;
+        width: 500px;
 
     }
+    .swp-item p{
+        font-size: 16px;
+        font-family: sans-serif;
+        font-weight:500;
+    }
+
+
+
+
+
 
 
 
 
 
     /* footer */
-    .footer{
+    .footer {
         display: flex;
         justify-content: space-around;
         text-align: left;
     }
-   .footer-bottom{
-    display: flex;
-    flex-direction: row;
-    justify-items:   center;
-   }
+
+    .footer-bottom {
+        display: flex;
+        flex-direction: row;
+        justify-items: center;
+    }
 
 }

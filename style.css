@@ -155,7 +155,7 @@ button {
 }
 .somemo .items {
   display: flex;
-  padding: 20px 20px;
+    padding: 20px 20px;
 }
 .somemo h1 {
   font-family: "TT-bold";
@@ -219,10 +219,11 @@ button {
   padding: 7px 0;
 }
 
-.food-w h1 {
+.food-w h1 , .bus-unlock {
   font-family: "TT-bold";
   font-weight: 700;
   margin: 19px 0px;
+  text-align: center;
 }
 .food-w span {
   font-family: "TT-bold";
