@@ -518,6 +518,9 @@ margin: 0px 10px;
 display: none;
 } */
 
+button {
+  padding: 4px;
+}
 
 .banner{
   height: 76.5%;
@@ -570,7 +573,7 @@ height: 184px;
 }
 .item2 {
   display: flex;
-  margin-top: -40px;
+  /* margin-top: -40px; */
 }
 
 .img-desk{
