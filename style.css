@@ -583,13 +583,30 @@ height: 184px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       url(./asset/img/grocery_desktop.png);
   background-size: cover;
+  object-fit: cover;
   height: 500px;
   display: flex;
   position: relative;
   text-align: center;
   justify-content: center;
+  font-family: sans-serif;
 }
+.inner-cnt{
+  height: 310px;
+  width: 500px;
+  padding: 20px;
+}
+.inner-cnt >*{
+  margin: 20px 0px;
+}
+.inner-cnt h1{
+  font-size: 40px;
+  line-height: 44px;
+}
+.inner-cnt span{
+  font-size: 20px;
 
+}
 
 
 
