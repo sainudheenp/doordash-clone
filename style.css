@@ -501,7 +501,103 @@ margin: 0px 10px;
 
 
 
+@media screen and (min-width: 760px)  {
+.top-div{
+  display: none;
+}    
+.content .xxn {
+display: none;
+}
+.content p{
+  font-size: 40px;
+}
+.address-div {
+  width: 50%;
+}
+.login-btn span::after{
+  content: "Sign In";
+}
 
+/* somemo */
+.somemo{
+  align-items: center;
+justify-content: space-around;
+}
+.items{
+width: 500px;
+height: auto;
+}
+.items img{
+  width: 124px;
+  height: 124px;
+}
+.items .con{
+  margin-left:30px ;
+width: 250px;
+height: 184px;
+}
+.items .con p{
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding:5px 0 ;
+}
+
+
+/* food- */
+
+.item1 {
+  display: flex;
+  flex-direction: row-reverse;
+
+}
+.item2 {
+  display: flex;
+}
+
+.img-desk{
+  display: inline-block;
+  object-fit: cover;
+}
+.img-mob{
+  display: none;
+}
+
+
+.at-cnt {
+  width: 400px;
+  height: 290px;
+}
+.at{
+  justify-content: space-between;
+}
+.at img{
+  width: 300px;
+  height: 500px;
+}
+
+.at-cnt h1{
+  text-align: start;
+}
+
+.item3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(./asset/img/grocery_desktop.png);
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
+}
 
 
 
