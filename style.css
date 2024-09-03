@@ -453,10 +453,13 @@ align-items: center;
 
 }
 
-.app-icons img{
+.app-icons-mob img{
 /* width: 335px; */
 height: 130px;
 width: 200px;
+}
+.app-icons-desk img{
+  display: none;
 }
 
 
