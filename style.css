@@ -82,6 +82,7 @@ button {
   display: none;
 }
 
+
 .content {
   position: absolute;
   top: 50%;
@@ -98,9 +99,15 @@ button {
 .content p {
   padding: 15px 0;
 }
-.content img {
+/* .content img {
   width: 150px;
-}
+} */
+.xxn{
+  position:absolute;
+  top: -35vh;
+  width: 220px;
+  height: auto;
+  }
 .content p {
   font-family: "TT-bold";
   text-align: center;
@@ -155,7 +162,7 @@ button {
 }
 .somemo .items {
   display: flex;
-  padding: 20px 20px;
+    padding: 20px 20px;
 }
 .somemo h1 {
   font-family: "TT-bold";
@@ -219,10 +226,11 @@ button {
   padding: 7px 0;
 }
 
-.food-w h1 {
+.food-w h1 , .bus-unlock {
   font-family: "TT-bold";
   font-weight: 700;
   margin: 19px 0px;
+  text-align: center;
 }
 .food-w span {
   font-family: "TT-bold";
@@ -307,9 +315,10 @@ align-items: center;
 
 
 .swp .swp-item{
+
   margin-left:10.15px ;
   margin-right: -38px;
-  width: 610px;
+    width: 610px;
   min-width: 90%;
   padding: 20px;
   text-align: center;
@@ -369,11 +378,16 @@ padding: 20px 0;
   padding: 10px;
 
 }
-.js-heads span:nth-child(1){
+.js-heads span:focus{
   border-bottom: 4px solid rgb(48, 48, 48);
   font-family:TT-bold;
 }
 
+.js-heads span:hover{
+  background-color: rgb(119, 119, 119);
+  border-bottom: 4px solid rgb(48, 48, 48);
+  font-family:TT-bold;
+}
 
 .cicuch{
   display: flex;
@@ -402,7 +416,7 @@ display:none;
 
 
 footer {
-  background: #3a3a3a;
+  background: #000000;
   color: aliceblue;
 }
 .footer{
@@ -439,10 +453,13 @@ align-items: center;
 
 }
 
-.app-icons img{
+.app-icons-mob img{
 /* width: 335px; */
 height: 130px;
 width: 200px;
+}
+.app-icons-desk img{
+  display: none;
 }
 
 
@@ -495,7 +512,179 @@ margin: 0px 10px;
 
 
 
+@media screen and (min-width: 760px)  {
 
+
+.top-div{
+  display: none;
+}
+/* .content .xxn {
+display: none;
+} */
+
+button {
+  padding: 4px;
+}
+
+.banner{
+  height: 76.5%;
+}
+
+
+.content p{
+  font-size: 40px;
+}
+.address-div {
+  width: 50%;
+}
+.login-btn span::after{
+  content: "Sign In";
+}
+
+/* somemo */
+.somemo{
+  align-items: center;
+justify-content: space-around;
+}
+.items{
+  margin-top: 30px;
+width: 500px;
+height: auto;
+}
+.items img{
+  width: 124px;
+  height: 124px;
+}
+.items .con{
+  margin-left:30px ;
+width: 280px;
+height: 184px;
+}
+.items .con p{
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding:5px 0 ;
+}
+
+
+/* food- */
+
+.item1 {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: white;
+
+}
+.item2 {
+  display: flex;
+  /* margin-top: -40px; */
+}
+
+.img-desk{
+  display: inline-block;
+  object-fit: cover;
+}
+.img-mob{
+  display: none;
+}
+
+
+.at-cnt {
+  width: 400px;
+  height: 290px;
+}
+.at{
+  justify-content: space-between;
+}
+.at img{
+  width: 300px;
+  height: 500px;
+}
+
+.at-cnt h1{
+  text-align: start;
+}
+
+.item3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(./asset/img/grocery_desktop.png);
+  background-size: cover;
+  object-fit: cover;
+  height: 500px;
+  display: flex;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  font-family: sans-serif;
+}
+.inner-cnt{
+  height: 310px;
+  width: 500px;
+  padding: 20px;
+}
+.inner-cnt >*{
+  margin: 20px 0px;
+}
+.inner-cnt h1{
+  font-size: 40px;
+  line-height: 44px;
+}
+.inner-cnt span{
+  font-size: 20px;
+
+}
+.item4{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+/* swp */
+
+.swp .swp-item{
+  margin-left:10.15px ;
+  margin-right: -38px;
+    width: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.swp-container .swp {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+justify-content: center;
+}
+.swp-item{
+  overflow: visible;
+
+}
+
+/* footer */
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+  font-size: 20px;
+
+  text-align: center;
+  font-family: TT-bold;
+
+}
+
+.footer >*{
+  align-self: flex-start;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+}
+
+
+
+
+}
 
 
 
