@@ -79,7 +79,7 @@
   max-width: 100%;
   text-align: left;
 }  */
-.top-div button {
+.top-div .open {
   color: white;
   background-color: var(--button-color);
   /* padding: 0px 16px; */
@@ -87,6 +87,7 @@
   border-radius: 20px;
   font-family: "TT-bold";
   font-weight: 700;
+  padding: 0 4px;
 }
 
 
@@ -95,7 +96,7 @@
 button {
   color: white;
   background-color: var(--button-color);
-  padding: 0px 10px;
+  padding: 2px 10px;
   border: 8px solid transparent;
   border-radius: 20px;
   font-family: "TT-bold";
@@ -116,7 +117,7 @@ button {
 .banner .login {
   position: absolute;
   right: 0;
-  padding: 10px;
+  padding:10 24px 0 0 ;
 }
 .banner .login button:nth-child(1) {
   background-color: white;
@@ -129,7 +130,7 @@ button {
 
 .content {
   position: absolute;
-  top: 50%;
+  top: 55%;
   transform: translateY(-50%);
   color: white;
   padding: auto;
@@ -145,6 +146,7 @@ line-height: 28px;
 max-width: 350px;
 text-align: center;
 font-size: 22px;
+margin-bottom: 16px;
 }
 .content img,
 .content p {
@@ -173,8 +175,10 @@ font-size: 22px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 90%;
+  width: 70%;
+height: 50px;
 }
+
 .address-div img {
   width: 18px;
 }
