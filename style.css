@@ -34,23 +34,63 @@
   display: flex;
   align-items: center;
   height: 93px;
-  margin: 0px 10px;
-  justify-content: space-around;
+   /* margin: 0px 10px;  */
+ padding: 20px 8px 8px 8px ;
+  justify-content: space-between;
+}
+.top-div svg {
+  border: 1px solid rgb(222, 222, 222);
+  border-radius: 10px;
+
+}
+.top-div span {
+  font-family: "TT-bold";
+}
+.top-div p {
+  font-family: "TT-light";
+  font-size: 14px;  
+  font-weight: bold;
+  opacity: .6;
+
+}
+.top-div .txt-div {
+  margin: 8px 5px;
+  line-height: 22px;
+}
+
+
+
+
+/* .top-div{
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  grid-template-rows: auto auto auto;
+  padding: 8px;
+  column-gap: 8px;
 }
 .top-div svg {
   border: 1px solid rgb(222, 222, 222);
   border-radius: 10px;
 }
-.top-div h4 {
-  font-family: "TT-bold";
-}
-.top-div p {
-  font-family: "TT-light";
-  font-size: 0.9em;
-}
 .top-div .txt-div {
-  margin: 8px 5px;
+  display: block;
+  font-size: 14px;
+  line-height: 20px;
+  max-width: 100%;
+  text-align: left;
+}  */
+.top-div button {
+  color: white;
+  background-color: var(--button-color);
+  /* padding: 0px 16px; */
+  border: 8px solid transparent;
+  border-radius: 20px;
+  font-family: "TT-bold";
+  font-weight: 700;
 }
+
+
+
 
 button {
   color: white;
@@ -60,6 +100,10 @@ button {
   border-radius: 20px;
   font-family: "TT-bold";
 }
+
+
+
+
 
 .banner {
   background-image: url(./asset/img/hero_mobile.png);
@@ -95,6 +139,13 @@ button {
   flex-direction: column;
   justify-content: center;
 }
+.content h1{
+font-family: sans-serif;
+line-height: 28px;
+max-width: 350px;
+text-align: center;
+font-size: 22px;
+}
 .content img,
 .content p {
   padding: 15px 0;
@@ -103,10 +154,10 @@ button {
   width: 150px;
 } */
 .xxn{
-  position:absolute;
-  top: -40vh;
-  width: 220px;
-  height: auto;
+  /* position:absolute;
+  top: -40vh; */
+  width: 142px;
+  height: 45px;
   }
 .content p {
   font-family: "TT-bold";
