@@ -132,7 +132,7 @@ button {
 
 .content {
   position: absolute;
-  top: 55%;
+  top: 62%;
   transform: translateY(-50%);
   color: white;
   padding: auto;
@@ -177,7 +177,7 @@ margin-bottom: 16px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 75%;
+  width: 80%;
 height: 50px;
 }
 
@@ -224,7 +224,7 @@ height: 50px;
 .somemo h1 {
   font-family: "TT-bold";
   text-align: start;
-  font-size: 1.7em;
+  font-size: 1.9em;
   line-height: 40px;
 }
 .somemo p {
@@ -247,7 +247,9 @@ height: 50px;
 /* .somemo .items .con {
   padding: 0 20px;
 } */
-
+.somemo .items .test{
+  margin-top: 12px;
+}
 
 
 
