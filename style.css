@@ -79,7 +79,7 @@
   max-width: 100%;
   text-align: left;
 }  */
-.top-div .open {
+ .open {
   color: white;
   background-color: var(--button-color);
   /* padding: 0px 16px; */
@@ -89,6 +89,8 @@
   font-weight: 700;
   padding: 0 4px;
 }
+
+
 
 
 
@@ -112,8 +114,9 @@ button {
   background-image: url(./asset/img/hero_mobile.png);
   background-size: cover;
   width: 100%;
-  height: 83%;
-  position: relative;
+  height: 550px;
+  display: flex;
+  /* position: relative; */
 }
 
 .banner .login {
@@ -131,9 +134,9 @@ button {
 
 
 .content {
-  position: absolute;
-  top: 42vh;
-  transform: translateY(-50%);
+  /* position: absolute;
+  top: 35vh;
+  transform: translateY(-50%); */
   color: white;
   padding: auto;
   align-items: center;
@@ -147,7 +150,8 @@ font-family: sans-serif;
 line-height: 28px;
 max-width: 350px;
 text-align: center;
-font-size: 22px;
+/* font-size: 22px; */
+font-size: 1.4em;
 margin-bottom: 16px;
 }
 .content img,
@@ -177,7 +181,7 @@ margin-bottom: 16px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 85%;
+  /* width: 85%; */
 height: 50px;
 }
 
@@ -189,6 +193,7 @@ height: 50px;
   border: 0px;
   font-family: "TT-bold";
   border: 0px solid red;
+  width: 246px;
 }
 .address-div input:focus{
   outline: none;
@@ -210,6 +215,33 @@ height: 50px;
   content: "Login";
 }
 
+/* ad */
+.app-ad{
+  width: 360px;
+  height: 170px;
+  padding:0 30px;
+  margin: 20 auto;
+  background-color: #f7f7f7ff;
+  border-radius: 20px;
+}
+
+.ad{
+  margin-top: 16px;
+  text-align: center;
+  width: 90%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* somemo  */
 .somemo {
@@ -224,7 +256,7 @@ height: 50px;
 .somemo h1 {
   font-family: "TT-bold";
   text-align: start;
-  font-size: 1.9em;
+  font-size: 2em;
   line-height: 40px;
 }
 .somemo p {
@@ -581,6 +613,9 @@ margin: 0px 10px;
 
 
 .top-div{
+  display: none;
+}
+.app-ad {
   display: none;
 }
 /* .content .xxn {
