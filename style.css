@@ -96,12 +96,12 @@
 button {
   color: white;
   background-color: var(--button-color);
-  padding: 2px 8;
+  /* padding: 2px 8; */
+  padding: 0 4px;
   border: 8px solid transparent;
   border-radius: 20px;
   font-weight: 700;
   font-family: "TT-bold";
-  font-size: 12px;
 }
 
 
@@ -177,7 +177,7 @@ margin-bottom: 16px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 80%;
+  width: 85%;
 height: 50px;
 }
 
