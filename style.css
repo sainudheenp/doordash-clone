@@ -355,6 +355,11 @@ margin-top: 20px;
   margin: 19px 0px;
   text-align: start;
 }
+.bus-unlock{
+  font-size: 24px;
+  text-align: center;
+}
+
 .business h1{
   text-align: start;
   padding: 0px 10px ;
