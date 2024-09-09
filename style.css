@@ -243,9 +243,12 @@ height: 50px;
   margin: 20px auto;
   background-color: #f7f7f7ff;
   border-radius: 20px;
+/* display: flex;
+flex-direction: column;
+justify-content: center; */
 }
 
-.ad{
+.adbtn{
   margin-top: 16px;
   text-align: center;
   width: 90%;
@@ -273,6 +276,8 @@ height: 50px;
 .somemo .items {
   display: flex;
     padding: 20px 20px;
+    justify-content: center;
+
 }
 .somemo h1 {
   font-family: "TT-bold";
@@ -297,9 +302,10 @@ height: 50px;
   height: 88px;
   margin-right: 32px;
 }
-/* .somemo .items .con {
-  padding: 0 20px;
-} */
+.somemo .items .con {
+width:250px ;
+}
+
 .somemo .items .test{
   margin-top: 12px;
 }
