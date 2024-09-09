@@ -756,6 +756,7 @@ height: 184px;
 }
 
 .at-cnt h1{
+font-size: 40px;
   text-align: start;
 }
 
@@ -811,6 +812,23 @@ justify-content: center;
   overflow: visible;
 
 }
+.swp .swp-item img {
+  width: 350px;
+  height: 350px;
+}
+.swp .swp-item h1{
+  font-size: 40px;
+  line-height: 40px;
+}
+.swp .swp-item p{
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 500  ;
+}
+
+
+
+
 
 /* footer */
 
