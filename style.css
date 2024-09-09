@@ -608,13 +608,18 @@ width: 200px;
 
 .country{
   display: flex;
+  justify-content: center;
+}
+
+.country div{
+  display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   width: 150px;
   height: 30px;
   align-items: center;
   background-color: white;
-  margin: 0 100px;
+  /* margin: 0 100px; */
   border: 10px sold transparent;
   border-radius: 100px;
 }
