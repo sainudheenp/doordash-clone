@@ -132,7 +132,7 @@ button {
 
 .content {
   position: absolute;
-  top: 62%;
+  top: 42vh;
   transform: translateY(-50%);
   color: white;
   padding: auto;
