@@ -29,6 +29,17 @@
   font-family: "TT-medium ";
   src: url(./asset/fonts/TTNorms-Medium.otf);
 }
+.js-banner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.js-banner-img{
+  height: 12px;
+  width: 12px;
+}
+
+
 
 .top-div {
   display: flex;
