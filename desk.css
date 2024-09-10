@@ -3,27 +3,6 @@
     display: none;
   }
 
-  .mob {
-      display: none;
-    }
-.desk{
-  display: flex;
-  flex-direction:row-reverse ;
-  /* display: inline; */
-  
-}
-.desk > button{
-  margin: 0 5px;
-  padding:6px ;
-}
-
-
-
-
-  .xxn{
-    display: none;
-  }
-
   button {
     padding: 6px;
   }
@@ -32,11 +11,7 @@
     background-image: url(./asset/img/hero_desktop.png);
     height: 89%;
   }
-.content h1{
-  font-size: 40px;
-  max-width: 100%;
-  line-height: 40px;
-}
+
 
   .address-div {
     width: 408px;

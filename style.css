@@ -47,7 +47,9 @@
 
 
 
-
+.door{
+  display: none;
+}
 
 /* top div */
 .top-div {
@@ -666,9 +668,53 @@ margin: 0px 10px;
 @media screen and (min-width: 760px)  {
 
 
+.door{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+ height: 0px;
+}
+.door img{
+  width: 152x;
+  height: 20px;
+  margin: 24px 0px;
+}
+
+
+  .mob {
+    display: none;
+  }
+.desk{
+display: flex;
+flex-direction:row-reverse ;
+/* display: inline; */
+
+}
+.desk > button{
+margin: 0 5px;
+padding:6px ;
+}
+.content h1{
+  font-size: 40px;
+  max-width: 100%;
+  line-height: 40px;
+}
+
+
+
+.xxn{
+  display: none;
+}
+
 .top-div{
   display: none;
 }
+.banner{
+  height:650px ;
+}
+
+
+
 .app-ad {
   display: none;
 }
@@ -680,9 +726,9 @@ button {
   padding: 4px;
 }
 
-.banner{
+/* .banner{
   height: 76.5%;
-}
+} */
 
 
 .content p{
