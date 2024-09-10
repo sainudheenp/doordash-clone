@@ -2,7 +2,9 @@
   .top-div {
     display: none;
   }
-
+.js-banner{
+  display: none;
+}
   button {
     padding: 6px;
   }
@@ -10,11 +12,18 @@
   .banner {
     background-image: url(./asset/img/hero_desktop.png);
     height: 89%;
+  
   }
 
 
   .address-div {
     width: 408px;
+    padding-right: 7px;
+    padding-left: 7px ;
+   height: 60px;
+   align-items: center;
+   /* padding: 5px 7px 7px 0; */
+  border: 3px rgb(104, 104, 240) solid;
   }
 
   .address-div .add-second img {
@@ -30,10 +39,17 @@
   .bg-ondesk {
 
     background-color: red;
-    border-radius: 50px;
+    border-radius: 70px;
     /* height: 50px; */
   }
 
+/* bg arrow */
+  .content img{
+    padding: 7px;
+  }
+  .address-div img{
+    width:auto;
+  }
 
   .login-btn span::after {
     content: "Sign in for saved address";
@@ -115,11 +131,14 @@
   .items img {
     margin: 0;
   }
-
+.mtt{
+  margin-top: 50px;
+}
   .item1 {
     display: flex;
     flex-direction: row-reverse;
     /* background-color: white; */
+  
   }
 
   .item2 {
@@ -200,8 +219,10 @@
   }
 
   .swp-container .swp img {
-    height: 350px;
-    width: 500px;
+    /* height: 350px;
+    width: 500px; */
+    height: 552px;
+    width: 552px;
   }
 
   .swp-item p {
@@ -213,6 +234,13 @@
   /* business   code reused item1,2 */
 
   /* js */
+
+.js h2{
+  text-align: center ;
+  font-size: 40px;
+}
+
+
   #ci {
     display: inline;
   }
@@ -242,13 +270,23 @@
     justify-content: space-evenly;
     justify-items: center;
   }
+.app-icons-desk{
+display: inline;
+}
 
-  .app-icons-mob {
-    display: none;
+  .app-icons-desk img {
+    height: 133px;
+    width: 200px;
   }
 
-  .app-icons-desk {
-    height: 40px;
-    width: 20px;
-  }
+.wope{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-evenly;
+  
+}
+
+
+
 }

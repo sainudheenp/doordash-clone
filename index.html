@@ -12,7 +12,7 @@
 
 <body>
 
-    <div class="js-banner" style="display: none;">
+    <div class="js-banner">
         <div class="js-banner-img">
             <svg width="64" height="64" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
                 aria-hidden="true"
@@ -47,7 +47,7 @@
         <div class="open">Open</div>
     </div>
 
-    <section class="main">
+    <section class="main" >
         <div class="door"><img src="./asset/img/doordash-logo-white.png" alt=""></div>
 
         <div class="banner">
@@ -68,7 +68,9 @@
                 <img class="xxn" src="./asset/img/doordash-logo-white.png" alt="logo-with-text">
                 <h1>Discover restaurents and more near you.</h1>
                 <div class="address-div">
-                    <div class="add-first"> <img src="./asset/img/search.svg" alt="">
+                    <div class="add-first"> 
+                        <img src="./asset/img/search.svg" alt="" class="img-mob" >
+                        <img src="./asset/img/loc.svg" alt=""  class="img-desk" style="margin: 0 ;" >
                         <input type="text" name="address" placeholder="Enter delivery address" id="address" readonly>
                     </div>
                     <div class="add-second">
@@ -218,7 +220,7 @@
     <section class="section-food">
         <div class="food-w" style="background-color: white;">
 
-            <div class="item1 at">
+            <div class="item1 at mtt">
                 <div class="foody">
                     <img class="img-mob" src="./asset/img/download_the_app_mobile.png" alt="">
                     <img class="img-desk" src="./asset/img/download_the_app_desktop.png" alt="">
@@ -414,7 +416,6 @@
                 <li>Chicago</li>
                 <li>Brooklyn</li>
                 <li>Las Vegas</li>
-
             </ul>
         </div>
 
@@ -507,7 +508,7 @@
             </div>
         </div>
 
-        <div class="app-icons-mob">
+        <div class="app-icons-mob img-mob">
             <img src="./asset/img/apps.png" alt="">
 
         </div>
@@ -546,6 +547,12 @@
                 <li>Get Dashers For Delivery</li>
                 <li>Get DoorDash for Business</li>
             </ul>
+            <ul>
+                <div class="app-icons-desk">
+                    <img src="./asset/img/apps.png" alt="">
+        
+                </div>
+            </ul>
             <!-- <ul>
             <li> <div class="app-icons-desk">
                 <img src="./asset/img/apps.png" alt="">
@@ -553,6 +560,7 @@
            </ul> -->
 
         </div>
+        <div class="wope">
 
         <div class="social">
             <img src="./asset/img/fbw.png" alt="">
@@ -587,6 +595,7 @@
             <span>C 2024 DoorDash</span>
         </div>
 
+        </div>
     </footer>
 
 </body>
