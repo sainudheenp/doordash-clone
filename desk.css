@@ -58,9 +58,7 @@
     width:auto;
   }
 
-  .login-btn span::after {
-    content: "Sign in for saved address";
-  }
+ 
 
   .somemo {
     display: flex;
