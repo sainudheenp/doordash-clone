@@ -5,6 +5,11 @@
 .js-banner{
   display: none;
 }
+
+.door img{
+  width:240px ;
+  height: 28px;
+}
   button {
     padding: 6px;
   }
