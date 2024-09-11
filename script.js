@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
 
     document.getElementById("cu").style.display="none";
-    document.getElementById("ci").style.display="flex";
+    // document.getElementById("ci").style.display="flex";
     document.getElementById("ch").style.display="none";
 
 

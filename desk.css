@@ -2,28 +2,9 @@
   .top-div {
     display: none;
   }
-
-  .mob {
-      display: none;
-    }
-.desk{
-  display: flex;
-  flex-direction:row-reverse ;
-  /* display: inline; */
-  
+.js-banner{
+  display: none;
 }
-.desk > button{
-  margin: 0 5px;
-  padding:6px ;
-}
-
-
-
-
-  .xxn{
-    display: none;
-  }
-
   button {
     padding: 6px;
   }
@@ -31,15 +12,43 @@
   .banner {
     background-image: url(./asset/img/hero_desktop.png);
     height: 89%;
+  
   }
-.content h1{
-  font-size: 40px;
-  max-width: 100%;
-  line-height: 40px;
-}
+
 
   .address-div {
     width: 408px;
+    padding-right: 7px;
+    padding-left: 7px ;
+   height: 60px;
+   align-items: center;
+   /* padding: 5px 7px 7px 0; */
+  border: 3px rgb(104, 104, 240) solid;
+  }
+
+  .address-div .add-second img {
+    width: 40px;
+    justify-content: flex-end;
+  }
+
+
+  .address-div img:nth-child(2) {
+    align-self: flex-end;
+  }
+
+  .bg-ondesk {
+
+    background-color: red;
+    border-radius: 70px;
+    /* height: 50px; */
+  }
+
+/* bg arrow */
+  .content img{
+    padding: 7px;
+  }
+  .address-div img{
+    width:auto;
   }
 
   .login-btn span::after {
@@ -92,7 +101,7 @@
     align-items: center;
   }
 
-  .somemo a > * {
+  .somemo a>* {
     margin-right: 10px;
   }
 
@@ -113,15 +122,23 @@
     font-size: 16px;
     display: block;
   }
+
   .at img {
     width: auto;
     height: auto;
   }
 
+  .items img {
+    margin: 0;
+  }
+.mtt{
+  margin-top: 50px;
+}
   .item1 {
     display: flex;
     flex-direction: row-reverse;
     /* background-color: white; */
+  
   }
 
   .item2 {
@@ -149,6 +166,7 @@
     background-size: cover;
     height: 600px;
   }
+
   /* .inner-cnt h1{
         line-height: 40px;
     } */
@@ -169,7 +187,7 @@
   }
 
   /* swp */
-  .bus-unlock{
+  .bus-unlock {
     font-size: 32px;
   }
 
@@ -201,23 +219,43 @@
   }
 
   .swp-container .swp img {
-    height: 350px;
-    width: 500px;
+    /* height: 350px;
+    width: 500px; */
+    height: 552px;
+    width: 552px;
   }
+
   .swp-item p {
     font-size: 16px;
     font-family: sans-serif;
     font-weight: 500;
   }
+
   /* business   code reused item1,2 */
 
   /* js */
 
-  /* .cicuch{
+.js h2{
+  text-align: center ;
+  font-size: 40px;
+}
+
+
+  #ci {
+    display: inline;
+  }
+
+  .cicuch {
+    display: inline;
+  }
+
+  .cicuch ul {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(3,1fr);
-} */
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-rows: repeat(3,1fr); */
+    /* justify-content: space-between; */
+    text-align: center;
+  }
 
   /* footer */
   .footer {
@@ -232,11 +270,23 @@
     justify-content: space-evenly;
     justify-items: center;
   }
-  .app-icons-mob {
-    display: none;
+.app-icons-desk{
+display: inline;
+}
+
+  .app-icons-desk img {
+    height: 133px;
+    width: 200px;
   }
-  .app-icons-desk {
-    height: 40px;
-    width: 20px;
-  }
+
+.wope{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-evenly;
+  
+}
+
+
+
 }
