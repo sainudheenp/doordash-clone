@@ -5,6 +5,11 @@
 .js-banner{
   display: none;
 }
+
+.door img{
+  width:240px ;
+  height: 28px;
+}
   button {
     padding: 6px;
   }
@@ -14,7 +19,9 @@
     height: 89%;
   
   }
-
+.add-img-mob{
+  display: none;
+}
 
   .address-div {
     width: 408px;
@@ -51,9 +58,7 @@
     width:auto;
   }
 
-  .login-btn span::after {
-    content: "Sign in for saved address";
-  }
+ 
 
   .somemo {
     display: flex;
