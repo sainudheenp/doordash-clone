@@ -978,6 +978,10 @@ display: none;
       }
 
       /* swp */
+      .swp-container{
+        margin-top: -38px;
+        padding-top: 38px;
+      }
 
       .swp .swp-item {
         margin-left: 10.15px;
