@@ -281,10 +281,12 @@
   }
 
   /* footer */
+
   .footer {
     display: flex;
     justify-content: space-around;
     text-align: left;
+    margin-top: 50px;
   }
 
   .footer-bottom {
@@ -295,11 +297,14 @@
   }
 .app-icons-desk{
 display: inline;
+
 }
 
   .app-icons-desk img {
     height: 133px;
     width: 200px;
+    margin: 0;
+    padding: 0;
   }
 
 .wope{

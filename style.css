@@ -156,18 +156,22 @@
     .banner .login {
       position: absolute;
       right: 0;
-      padding: 10 24px 0 0;
+      padding: 16 25px 0 0;
     }
+/* button padding */
+.banner .login button{
+  padding: 0 10px;
+}
 
     .banner .login button:nth-child(1) {
       background-color: white;
       color: black;
+      margin-right: 3px;
     }
 
     .desk {
       display: none;
     }
-
 
     .content {
       /* position: absolute;
