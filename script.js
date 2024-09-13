@@ -39,3 +39,12 @@ ci.addEventListener("click", function () {
 });
 
 });
+
+
+// window.onscroll = function (){
+//     var crntscrl = window.pageYOffset ;
+//     // console.log(crntscrl)
+//     if(crntscrl<70){
+//         document.getElementsByClassName("js-banner")[0].style.display="inline"
+//     }
+// }

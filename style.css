@@ -123,17 +123,12 @@
       color: white;
       background-color: var(--button-color);
       /* padding: 0px 16px; */
-      border: 8px solid transparent;
+      border: 10px solid transparent;
       border-radius: 20px;
       font-family: "TT-bold";
       font-weight: 700;
       padding: 0 4px;
     }
-
-
-
-
-
 
     button {
       color: white;
@@ -283,7 +278,7 @@
     .app-ad {
       width: 340px;
       height: 162px;
-      padding: 0 30px;
+      padding: 0 25px;
       margin: 20px auto;
       background-color: #f7f7f7ff;
       border-radius: 20px;
@@ -293,7 +288,7 @@ justify-content: center; */
     }
 
     .adbtn {
-      margin-top: 16px;
+      margin-top: 10px;
       text-align: center;
       /* width: 90%; */
     }
@@ -313,7 +308,11 @@ justify-content: center; */
 
     /* somemo  */
     .somemo {
-      margin: 40px 0;
+    
+  
+      /* margin: 40px 0; */
+      margin-top: 40px;
+      margin-bottom: 45px;
       display: flex;
       flex-direction: column;
       /* text-align: center; */
@@ -321,11 +320,17 @@ justify-content: center; */
 
     .somemo .items {
       display: flex;
-      padding: 20px 20px;
+      padding: 16px 24px;
       justify-content: center;
+      /* adding floowing lines pixel */
+      /* margin-top: 7px; */
+
 
     }
+.items:nth-child(1){
+  margin-top: 7px;
 
+}
     .somemo h1 {
       font-family: "TT-bold";
       text-align: start;
@@ -752,7 +757,7 @@ align-items: center;
 
 
 
-    @media screen and (min-width: 760px) {
+    @media screen and (min-width: 770px) {
 
 
 
