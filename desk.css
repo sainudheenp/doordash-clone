@@ -112,11 +112,26 @@
 
   /* food */
 
+
+
+  .clr-u{
+    margin-top: -50px;
+    padding-top: 50px;
+  }
+   .at{
+    background-color: transparent ;
+
+  }
+
+
   .food-w {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+  }
+  .at .at-cnt {
+    width: 400px;
   }
 
   .at h1 {
@@ -177,13 +192,16 @@
     } */
 
   .inner-cnt {
+   
     justify-content: center;
   }
 
   .inner-cnt h1 {
+    text-align: center;
     font-size: 40px;
     font-family: TT-bold;
     line-height: 1;
+    width: 500px;
   }
 
   .item4 {

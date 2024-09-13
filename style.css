@@ -284,8 +284,9 @@ justify-content: center; */
     .adbtn {
       margin-top: 16px;
       text-align: center;
-      width: 90%;
+      /* width: 90%; */
     }
+
 
 
 
@@ -356,8 +357,15 @@ justify-content: center; */
 
     /* food section */
 
+.clr-u{
+  margin-top: -300px;
+  padding-top: 300px;
+}
+
+
     .food-w {
-      margin-top: 0px;
+      /* margin-top: -300px;
+      padding-top: 300px; */
       /* margin-top: 30px; */
       background-color: var(--cards-bg);
       box-sizing: border-box;
@@ -387,7 +395,11 @@ justify-content: center; */
       margin-top: 20px;
     }
 
-    .food-w .at span,
+    .food-w .at span{
+      font-size: 18px;
+      line-height: 20px;
+      margin-bottom: 10px;
+    }
     .food-w .at p {
       font-size: 14px;
       line-height: 20px;
