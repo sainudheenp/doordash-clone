@@ -92,6 +92,12 @@
       line-height: 22px;
     }
 
+    .star img {
+      height: 12px;
+      width: 12px;
+    }
+
+
 
 
 
@@ -158,10 +164,11 @@
       right: 0;
       padding: 16 25px 0 0;
     }
-/* button padding */
-.banner .login button{
-  padding: 0 10px;
-}
+
+    /* button padding */
+    .banner .login button {
+      padding: 0 10px;
+    }
 
     .banner .login button:nth-child(1) {
       background-color: white;
@@ -361,10 +368,10 @@ justify-content: center; */
 
     /* food section */
 
-.clr-u{
-  margin-top: -300px;
-  padding-top: 300px;
-}
+    .clr-u {
+      margin-top: -300px;
+      padding-top: 300px;
+    }
 
 
     .food-w {
@@ -399,11 +406,12 @@ justify-content: center; */
       margin-top: 20px;
     }
 
-    .food-w .at span{
+    .food-w .at span {
       font-size: 18px;
       line-height: 20px;
       margin-bottom: 10px;
     }
+
     .food-w .at p {
       font-size: 14px;
       line-height: 20px;
@@ -939,11 +947,13 @@ display: none;
         /* padding: 60px; */
         padding-right: 40px;
       }
+
       .item2 .at-cnt {
         width: auto;
         /* padding: 60px; */
         padding-left: 40px;
       }
+
       .item4 .at-cnt {
         width: auto;
         /* padding: 60px; */
@@ -994,7 +1004,7 @@ display: none;
       }
 
       /* swp */
-      .swp-container{
+      .swp-container {
         margin-top: -38px;
         padding-top: 38px;
       }
@@ -1033,9 +1043,11 @@ display: none;
         font-size: 40px;
         line-height: 40px;
       }
-      .swp-container .helping h1{
-          font-size: 32px;
-}
+
+      .swp-container .helping h1 {
+        font-size: 32px;
+      }
+
       .swp .swp-item p {
         font-size: 16px;
         line-height: 22px;
@@ -1084,9 +1096,10 @@ display: none;
         flex-direction: row;
         justify-items: center;
       }
-.footer ul h2{
-  padding: 0 0px;
-}
+
+      .footer ul h2 {
+        padding: 0 0px;
+      }
 
 
 

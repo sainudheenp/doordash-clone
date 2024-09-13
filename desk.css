@@ -231,9 +231,11 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1px;
-    margin: 0 100px;
+    /* margin: 0 100px; */
+    margin: 0 13%;
     justify-items: center;
     overflow: visible;
+    
   }
 
   .swp-item {
@@ -252,6 +254,11 @@
     font-size: 16px;
     font-family: sans-serif;
     font-weight: 500;
+  }
+  .swp .swp-item h1{
+    font-size: 40px;
+    line-height: 40px;
+    font-family: sans-serif;
   }
 
   /* business   code reused item1,2 */
