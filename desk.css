@@ -21,10 +21,10 @@
     height: 89%;
 
   }
- .desk{
+ .desk-arrow{
   display: inline;
  }
- .mob{
+ .mob-arrow{
   display: none;
  }
 
@@ -224,7 +224,7 @@
   }
 
   /* swp */
-  .bus-unlock {
+  .business .bus-unlock {
     font-size: 32px;
     padding: 60px 20px 40px ;
   }
