@@ -21,6 +21,12 @@
     height: 89%;
 
   }
+ .desk{
+  display: inline;
+ }
+ .mob{
+  display: none;
+ }
 
   .add-img-mob {
     display: none;
@@ -220,6 +226,7 @@
   /* swp */
   .bus-unlock {
     font-size: 32px;
+    padding: 60px 20px 40px ;
   }
 
   .swp-container .helping h1 {
