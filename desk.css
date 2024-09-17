@@ -8,18 +8,30 @@
   }
 
   .door img {
-    width: 240px;
-    height: 28px;
+    width: 220px;
+    height: 26px;
   }
 
-  button {
+  /* button {
     padding: 6px;
-  }
+  } */
+
+.banner .login button{
+  padding: 1px 2px;
+  font-size:1.1rem;
+}
+.content {
+  margin-top: 63px;
+}
+
+
+
 
   .banner {
     background-image: url(./asset/img/hero_desktop.png);
-    height: 89%;
-
+    height: 87.4%;
+    /* height: 548px; */
+    background-position: center center;
   }
  .desk-arrow{
   display: inline;
@@ -64,6 +76,11 @@
     padding: 7px;
   }
 
+  .login-btn{
+    margin-top: 15px;
+  }
+
+
   .address-div img {
     width: auto;
   }
@@ -73,8 +90,9 @@
   .somemo {
     display: flex;
     flex-direction: row;
-    margin: 96px 0;
+    margin: 96px 0px;
     justify-content: center;
+    margin-right: 100px;
     max-width: 100%;
   }
 
@@ -92,6 +110,7 @@
   }
 
   .somemo .items img {
+    margin-left: 30px;
     height: 154px;
     width: 154px;
   }
@@ -139,7 +158,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+  }
+  .item1 img{
+    margin-left: 73px;
+  }
+  .item2 .at-cnt{
+    margin-right: 73px;
   }
 
   .at .at-cnt {
@@ -157,7 +182,8 @@
 
   .at img {
     width: auto;
-    height: auto;
+    /* height: auto; */
+    height: 500px;
   }
 
   .items img {
@@ -186,6 +212,8 @@
   .img-desk {
     display: inline-block;
     object-fit: cover;
+    background-size: cover;
+    justify-content: center center;
     margin: 0px 20px;
   }
 

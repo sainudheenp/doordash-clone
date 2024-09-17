@@ -766,7 +766,12 @@ align-items: center;
     @media screen and (min-width: 770px) {
 
 
-
+.add-second .desk{
+  display: none;
+}
+.add-second .mob {
+  display: inline;
+}
 
       .door {
         display: flex;
