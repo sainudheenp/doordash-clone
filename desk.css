@@ -36,10 +36,14 @@
  .desk-arrow{
   display: inline;
  }
- .mob-arrow{
+ /*  */
+ .bg-ondesk{
   display: none;
  }
-
+ .add-second .bg-ondesk{
+  display: none;
+ }
+/*  */
   .add-img-mob {
     display: none;
   }
