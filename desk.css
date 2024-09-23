@@ -16,14 +16,19 @@
     padding: 6px;
   } */
 
-.banner .login button{
-  padding: 1px 2px;
-  font-size:1.1rem;
-}
-.content {
-  margin-top: 63px;
-}
+  .banner .login button {
+    padding: 1px 2px;
+    font-size: 1.1rem;
+  }
 
+  .content {
+    margin-top: 63px;
+  }
+
+  .content h1 {
+    word-spacing: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  }
 
 
 
@@ -33,17 +38,21 @@
     /* height: 548px; */
     background-position: center center;
   }
- .desk-arrow{
-  display: inline;
- }
- /*  */
- .bg-ondesk{
-  display: none;
- }
- .add-second .bg-ondesk{
-  display: none;
- }
-/*  */
+
+  .desk-arrow {
+    display: inline;
+  }
+
+  /*  */
+  .bg-ondesk {
+    display: none;
+  }
+
+  .add-second .bg-ondesk {
+    display: none;
+  }
+
+  /*  */
   .add-img-mob {
     display: none;
   }
@@ -80,7 +89,7 @@
     padding: 7px;
   }
 
-  .login-btn{
+  .login-btn {
     margin-top: 15px;
   }
 
@@ -164,10 +173,12 @@
     align-items: center;
     justify-content: space-around;
   }
-  .item1 img{
+
+  .item1 img {
     margin-left: 73px;
   }
-  .item2 .at-cnt{
+
+  .item2 .at-cnt {
     margin-right: 73px;
   }
 
@@ -258,7 +269,7 @@
   /* swp */
   .business .bus-unlock {
     font-size: 32px;
-    padding: 60px 20px 40px ;
+    padding: 60px 20px 40px;
   }
 
   .swp-container .helping h1 {
@@ -336,6 +347,14 @@
   }
 
   /* footer */
+
+footer{
+  display: flex;
+  justify-content:space-between;
+  flex-direction: column;
+
+}
+
 
   .footer {
     display: flex;
