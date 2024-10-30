@@ -92,6 +92,8 @@
     .top-div .txt-div {
       margin: 8px 5px;
       line-height: 22px;
+    text-overflow: ellipsis;
+       text-wrap:nowrap;
     }
 
     .star img {
