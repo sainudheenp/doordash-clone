@@ -27,10 +27,10 @@
 
   .content h1 {
     word-spacing: 0px;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+      "Segoe UI Symbol";
   }
-
-
 
   .banner {
     background-image: url(./asset/img/hero_desktop.png);
@@ -66,19 +66,16 @@
     /* padding: 5px 7px 7px 0; */
     /* border: 3px rgb(104, 104, 240) solid; */
   }
-
   .address-div .add-second img {
     width: 40px;
     justify-content: flex-end;
   }
-
 
   .address-div img:nth-child(2) {
     align-self: flex-end;
   }
 
   .bg-ondesk {
-
     background-color: red;
     border-radius: 70px;
     /* height: 50px; */
@@ -93,12 +90,9 @@
     margin-top: 15px;
   }
 
-
   .address-div img {
     width: auto;
   }
-
-
 
   .somemo {
     display: flex;
@@ -148,13 +142,11 @@
     align-items: center;
   }
 
-  .somemo a>* {
+  .somemo a > * {
     margin-right: 10px;
   }
 
   /* food */
-
-
 
   .clr-u {
     margin-top: -50px;
@@ -163,9 +155,7 @@
 
   .at {
     background-color: transparent;
-
   }
-
 
   .food-w {
     display: flex;
@@ -213,7 +203,6 @@
     display: flex;
     flex-direction: row-reverse;
     /* background-color: white; */
-
   }
 
   .item2 {
@@ -249,7 +238,6 @@
     } */
 
   .inner-cnt {
-
     justify-content: center;
   }
 
@@ -271,7 +259,12 @@
     font-size: 32px;
     padding: 60px 20px 40px;
   }
-
+  .swp-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   .swp-container .helping h1 {
     padding: 15px;
     font-family: TT-bold;
@@ -286,14 +279,16 @@
   }
 
   .swp-container .swp {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 1px;
-    /* margin: 0 100px; */
-    margin: 0 13%;
-    justify-items: center;
-    overflow: visible;
+    align-items: center;
+    justify-content: center;
 
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1px; */
+    /* margin: 0 100px; */
+    /* margin: 0 x13%;
+    justify-items: center;
+    overflow: visible; */
   }
 
   .swp-item {
@@ -329,7 +324,6 @@
     font-size: 40px;
   }
 
-
   #ci {
     display: inline;
   }
@@ -348,13 +342,11 @@
 
   /* footer */
 
-footer{
-  display: flex;
-  justify-content:space-between;
-  flex-direction: column;
-
-}
-
+  footer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
 
   .footer {
     display: flex;
@@ -372,7 +364,6 @@ footer{
 
   .app-icons-desk {
     display: inline;
-
   }
 
   .app-icons-desk img {
@@ -387,9 +378,5 @@ footer{
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-evenly;
-
   }
-
-
-
 }

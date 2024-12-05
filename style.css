@@ -1035,22 +1035,39 @@ display: none;
       }
 
       .swp .swp-item {
-        margin-left: 10.15px;
-        margin-right: -38px;
-        width: auto;
+        /* margin-left: 10.15px;
+        margin-right: -38px; */
+margin: unset;
+
+        /* width: auto; */
         padding: 20px;
+        text-align: center;
+        width:unset;
+      }
+      .swp .swp-item img{
+        padding: unset;
+      }
+      .swp-container .swp {
+        /* display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center; */
+
+      /* new dec */
+      display: flex;
+flex-wrap: wrap;
+max-width: 1184px;
+
+      }
+      .business .bus-unlock{
         text-align: center;
       }
 
-      .swp-container .swp {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        justify-content: center;
-      }
+     .swp .swp-item {
+        /* overflow: visible; */
 
-      .swp-item {
-        overflow: visible;
-
+        /*new  dec */
+        max-width: 50%;
+        min-width: 50%;
       }
 
       .swp .swp-container {
@@ -1157,6 +1174,6 @@ display: none;
       }
 
       .login-btn span::after {
-        content: "Sign in for saved address";
+        content: "Sign in for saved address" ;
       }
     }
